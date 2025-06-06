@@ -37,7 +37,7 @@ const Timer = () => {
   const { hours, minutes, seconds } = formatTime(timeLeft);
 
   return (
-    <div className="flex items-center space-x-4">
+    <div className="hidden sm:flex items-center space-x-4">
       {/* Timer for Hours */}
       <div className="flex flex-col items-center">
         <span className="text-4xl font-bold text-gray-800">{hours}</span>

@@ -22,9 +22,15 @@ function App() {
     <>
       <div className="">
         <ToastContainer />
-        <div className="w-full h-9 bg-black text-white text-xs flex items-center gap-2 justify-center">
+        {/* <div className="w-full h-9 bg-black text-white text-xs flex items-center gap-2 justify-center">
           Summer Sale For All Accessories And Free Express Delivery - OFF 50%!{" "}
           <span className="underline cursor-pointer">Shop now!</span>
+        </div> */}
+        <div className="w-full h-9 bg-black text-white text-xs flex items-center gap-2 overflow-hidden">
+          <div className="animate-scroll whitespace-nowrap">
+            Summer Sale For All Accessories And Free Express Delivery - OFF 50%!{" "}
+            {/* <span className="underline cursor-pointer">Shop now!</span> */}
+          </div>
         </div>
         <div className="px-4 sm:px-[4vw] md:px-[7vw] lg:px-[9vw]">
           <Navbar />

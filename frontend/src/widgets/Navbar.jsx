@@ -30,9 +30,9 @@ const Navbar = () => {
     <>
       <div className="flex items-center justify-between py-5 font-medium">
         <NavLink to={"/"}>
-          <img src={assets.logo} className="w-40" alt="Logo" />
+          <img src={assets.logo} className="w-40 bg-white" alt="Logo" />
         </NavLink>
-        <ul className="hidden sm:flex gap-5 text-sm text-gray-700">
+        <ul className="hidden sm:flex sm:items-center sm:text-[8px] gap-5 md:text-sm text-gray-700">
           <NavLink to="/" className="flex flex-col items-center gap-1">
             <p>HOME</p>
             <hr className="w-full border-none h-[1.5px] bg-red-500 hidden" />
@@ -54,19 +54,19 @@ const Navbar = () => {
           </NavLink>
         </ul>
         <div className="flex gap-6 items-center">
-          <div className="flex items-center bg-gray-100 px-4 py-2 rounded shadow-sm w-full max-w-md">
+          <div className="hidden md:flex items-center bg-gray-100 px-4 py-2 rounded shadow-sm w-full max-w-md">
             <input
               type="text"
               value={search}
               onChange={handleSearchChange}
-              className="bg-gray-100 flex-grow text-[12px] font-normal placeholder-gray-500 text-gray-800 focus:outline-none"
+              className="bg-gray-100 flex-grow md:text-[12px] font-normal placeholder-gray-500 text-gray-800 focus:outline-none sm:text-[8px]"
               placeholder="What are you looking for?"
             />
             <button className="ml-2">
               <img
                 src={assets.search_icon} // Replace with your search icon path
                 alt="Search Icon"
-                className="w-5 h-5 text-gray-500"
+                className="sm:w-4 sm:h-4 text-gray-500 md:w-6 md:h-6"
               />
             </button>
           </div>
@@ -74,7 +74,7 @@ const Navbar = () => {
             <img
               onClick={() => (token ? null : navigate("/login"))}
               src={assets.profile_icon}
-              className="w-6 cursor-pointer object-contain"
+              className="md:w-6 sm:w-8 cursor-pointer object-contain"
               alt="Profile Icon"
             />
             {/* Dropdown Menu */}

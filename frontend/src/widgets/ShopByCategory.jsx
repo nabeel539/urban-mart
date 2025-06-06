@@ -38,7 +38,7 @@ const ShopByCategory = () => {
       <div className="py-8 text-3xl text-start">
         <Title text1={"Categores"} text2={"Shop By Category"} />
       </div>
-      <div className="grid grid-cols-5 gap-7 p-2">
+      <div className="grid grid-cols-2 sm:grid-cols-5 gap-7 p-2">
         {categories.map((category, index) => (
           <div
             onClick={() => handleCategoryClick(category.title)}
