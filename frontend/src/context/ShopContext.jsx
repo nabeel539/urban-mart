@@ -9,7 +9,9 @@ export const ShopContext = createContext();
 const ShopContextProvider = (props) => {
   const currency = "$";
   const delivery_fee = 15;
-  const backendUrl = import.meta.env.VITE_BACKEND_URL;
+  const backendUrl =
+    import.meta.env.VITE_BACKEND_URL ||
+    "https://urban-mart-backend.onrender.com";
   const [search, setSearch] = useState("");
   const [showSearch, setShowSearch] = useState(false);
   const [cartItems, setcartItems] = useState({});

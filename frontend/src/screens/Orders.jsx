@@ -221,7 +221,8 @@ const Orders = () => {
                 {item.image && item.image.length > 0 && (
                   <img
                     className="w-16 sm:w-20"
-                    src={`http://localhost:4000${item.image}`}
+                    // src={`http://localhost:4000${item.image}`}
+                    src={`https://urban-mart-backend.onrender.com${item.image}`}
                     alt="product"
                   />
                 )}

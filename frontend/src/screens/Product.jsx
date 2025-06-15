@@ -51,7 +51,8 @@ const Product = () => {
           <div className="w-full sm:w-[80%] cursor-pointer">
             <img
               className="w-auto h-[350px]"
-              src={`http://localhost:4000${productData.image}`}
+              // src={`http://localhost:4000${productData.image}`}
+              src={`https://urban-mart-backend.onrender.com${productData.image}`}
               alt="Product"
             />
           </div>
@@ -123,7 +124,8 @@ const Product = () => {
                         >
                           <img
                             className="w-16"
-                            src={`http://localhost:4000${productData.image}`}
+                            // src={`http://localhost:4000${productData.image}`}
+                            src={`https://urban-mart-backend.onrender.com${productData.image}`}
                             alt="product"
                           />
                           <div className="flex items-center justify-between w-[100%]">
@@ -169,7 +171,8 @@ const Product = () => {
                       <div className="flex items-start gap-6">
                         <img
                           className="w-16 sm:w-20"
-                          src={`http://localhost:4000${productData.image}`}
+                          // src={`http://localhost:4000${productData.image}`}
+                          src={`https://urban-mart-backend.onrender.com${productData.image}`}
                           alt="product"
                         />
                         <div>

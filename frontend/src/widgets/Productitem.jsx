@@ -56,7 +56,8 @@ const ProductItem = ({
           <div className="overflow-hidden flex justify-start items-center">
             <img
               className="hover:scale-110 transition-all ease-in-out object-contain duration-500 w-full h-44"
-              src={`http://localhost:4000${image}`}
+              // src={`http://localhost:4000${image}`}
+              src={`https://urban-mart-backend.onrender.com${image}`}
               alt={name}
             />
           </div>
@@ -107,7 +108,8 @@ const ProductItem = ({
             {selectedProduct && (
               <div className="p-4">
                 <img
-                  src={`http://localhost:4000${selectedProduct.image}`}
+                  // src={`http://localhost:4000${selectedProduct.image}`}
+                  src={`https://urban-mart-backend.onrender.com${selectedProduct.image}`}
                   alt={selectedProduct.name}
                   className="w-full h-36 object-contain"
                 />

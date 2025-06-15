@@ -180,7 +180,8 @@ const Cart = () => {
                 <div className="flex items-center gap-6">
                   <img
                     className="w-[40px] "
-                    src={`http://localhost:4000${productData.image}`}
+                    // src={`http://localhost:4000${productData.image}`}
+                    src={`https://urban-mart-backend.onrender.com${productData.image}`}
                     alt="product"
                   />
                   <div>
