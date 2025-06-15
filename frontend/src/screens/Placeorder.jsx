@@ -257,7 +257,7 @@ const Placeorder = () => {
             <p className="text-[14px] font-medium mx-4">CASH ON DELIVERY</p>
           </div>
         </div>
-        <div className="w-full text-end mt-8">
+        <div className="w-full text-end my-8">
           <button
             type="submit"
             className="bg-black text-white py-3 px-16 text-sm"
