@@ -59,7 +59,7 @@ const Login = () => {
     <div className="w-full flex justify-between gap-9">
       <img
         src={assets.contact_img}
-        className="hidden sm:w-1/2 my-auto h-[90%]"
+        className="hidden sm:block sm:w-1/2 my-auto h-[90%]"
       />
       <div className="w-full sm:w-1/2">
         <form
