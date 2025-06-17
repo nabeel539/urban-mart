@@ -57,7 +57,10 @@ const Login = () => {
   }, [token]);
   return (
     <div className="w-full flex justify-between gap-9">
-      <img src={assets.contact_img} className="w-1/2 my-auto h-[90%]" />
+      <img
+        src={assets.contact_img}
+        className="hidden sm:w-1/2 my-auto h-[90%]"
+      />
       <div className="w-1/2">
         <form
           onSubmit={onSubmitHandler}

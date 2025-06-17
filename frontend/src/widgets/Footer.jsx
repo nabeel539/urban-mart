@@ -24,10 +24,15 @@ const Footer = () => {
         <div className="text-start text-white">
           <h3 className="text-lg font-bold my-4">Account</h3>
           <p className="text-[12px] mb-2">My Account</p>
-          <p className="text-[12px] mb-2">Login / Register</p>
-          <p className="text-[12px] mb-2">cart</p>
-          <p className="text-[12px] mb-2">wishlist</p>
-          <p className="text-[12px] mb-2">shop</p>
+          <link to={"/login"} className="text-[12px] mb-2">
+            Login / Register
+          </link>
+          <link to={"/cart"} className="text-[12px] mb-2">
+            cart
+          </link>
+          <link to={"/collection"} className="text-[12px] mb-2">
+            shop
+          </link>
         </div>
 
         {/* Company Links */}
