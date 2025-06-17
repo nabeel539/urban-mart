@@ -61,7 +61,7 @@ const Login = () => {
         src={assets.contact_img}
         className="hidden sm:w-1/2 my-auto h-[90%]"
       />
-      <div className="w-1/2">
+      <div className="w-full sm:w-1/2">
         <form
           onSubmit={onSubmitHandler}
           className="flex flex-col text-start w-[90%] sm:max-w-96 m-auto mt-14 gap-4 text-gray-800"
