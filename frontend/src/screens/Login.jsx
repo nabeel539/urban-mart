@@ -64,7 +64,7 @@ const Login = () => {
       <div className="w-full sm:w-1/2">
         <form
           onSubmit={onSubmitHandler}
-          className="flex flex-col text-start w-[90%] sm:max-w-96 m-auto mt-14 gap-4 text-gray-800"
+          className="flex flex-col text-start w-[90%] sm:max-w-96 m-auto my-6 sm:mt-14 gap-4 text-gray-800"
         >
           <div className="items-start gap-2 mb-2 mt-10">
             <p className="font-semibold text-xl">
